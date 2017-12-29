@@ -1,4 +1,5 @@
 platform :ios, '10.0'
+use_frameworks!
 
 def pods
   pod 'RxSwift'
@@ -10,8 +11,6 @@ def pods
 end
 
 target 'Golos' do
-  use_frameworks!
-
   pods
 
   target 'GolosTests' do

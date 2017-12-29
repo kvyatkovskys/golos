@@ -17,9 +17,9 @@ final class Router {
     
     func showMainTabController() -> UITabBarController {
         let mainViewController = MainViewController(MainViewDependecies(self))
-        let locationImage = UIImage(named: "ic_my_location")?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
-        mainViewController.navigationItem.title = "Near you"
-        mainViewController.tabBarItem = UITabBarItem(title: "My location", image: locationImage, tag: 1)
+        let locationImage = UIImage(named: "ic_view_list")?.withRenderingMode(UIImageRenderingMode.alwaysTemplate)
+        mainViewController.navigationItem.title = "List"
+        mainViewController.tabBarItem = UITabBarItem(title: "List", image: locationImage, tag: 1)
         mainViewController.navigationController?.navigationBar.isTranslucent = true
         
         let settingsController = SettingsViewController(SettingsViewDependecies(self))

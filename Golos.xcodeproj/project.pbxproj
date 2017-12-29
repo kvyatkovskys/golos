@@ -16,6 +16,7 @@
 		8B44C3B81FF62C3B003C0754 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C3B71FF62C3B003C0754 /* Router.swift */; };
 		8B44C3BA1FF62C68003C0754 /* AppInjections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C3B91FF62C68003C0754 /* AppInjections.swift */; };
 		8B44C3BC1FF62C9A003C0754 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C3BB1FF62C9A003C0754 /* SettingsViewController.swift */; };
+		8B44C3C11FF638F4003C0754 /* SocketNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B44C3C01FF638F4003C0754 /* SocketNetworkManager.swift */; };
 		DB0D31EAB9FE3858939224B8 /* Pods_Golos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9469E7FF7201A906D19EDCB9 /* Pods_Golos.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		8B44C3B71FF62C3B003C0754 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		8B44C3B91FF62C68003C0754 /* AppInjections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInjections.swift; sourceTree = "<group>"; };
 		8B44C3BB1FF62C9A003C0754 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		8B44C3C01FF638F4003C0754 /* SocketNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketNetworkManager.swift; sourceTree = "<group>"; };
 		9469E7FF7201A906D19EDCB9 /* Pods_Golos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Golos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D68F8DC244C76FA853057FA6 /* Pods-GolosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GolosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GolosTests/Pods-GolosTests.release.xcconfig"; sourceTree = "<group>"; };
 		FEA8E817A645ADB23856A136 /* Pods_GolosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GolosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 				8B44C3971FF62B7E003C0754 /* AppDelegate.swift */,
 				8B44C3B71FF62C3B003C0754 /* Router.swift */,
 				8B44C3B91FF62C68003C0754 /* AppInjections.swift */,
+				8B44C3C01FF638F4003C0754 /* SocketNetworkManager.swift */,
 				8B44C3BD1FF62D27003C0754 /* Main Controller */,
 				8B44C3BE1FF62D36003C0754 /* Settings Controller */,
 				8B44C39E1FF62B7E003C0754 /* Assets.xcassets */,
@@ -405,6 +408,7 @@
 				8B44C3BA1FF62C68003C0754 /* AppInjections.swift in Sources */,
 				8B44C3B81FF62C3B003C0754 /* Router.swift in Sources */,
 				8B44C3BC1FF62C9A003C0754 /* SettingsViewController.swift in Sources */,
+				8B44C3C11FF638F4003C0754 /* SocketNetworkManager.swift in Sources */,
 				8B44C3981FF62B7E003C0754 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
