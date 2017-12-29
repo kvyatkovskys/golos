@@ -1,0 +1,31 @@
+PODS:
+  - Kingfisher (4.5.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.0.0)
+  - SnapKit (4.0.0)
+  - Socket.IO-Client-Swift (13.1.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.3)
+  - Unbox (2.5.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - Socket.IO-Client-Swift
+  - Unbox
+
+SPEC CHECKSUMS:
+  Kingfisher: 26ae0473102b77b575da51960c932431e3745407
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  Socket.IO-Client-Swift: b67a96d6a9e5f271bceb93e99779d2cf77c74868
+  Starscream: dfb1b3f39506717ee52b67fb48de0c8269504cbc
+  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+
+PODFILE CHECKSUM: 3c1b3e2c1c9c6cda152db47a6a5f2613e89fc790
+
+COCOAPODS: 1.3.1
